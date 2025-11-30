@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>PQR - Ejército Nacional</title>
+    <title>Atención al Ciudadano - Ejército Nacional</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <header>
-        <h1>Ejército Nacional</h1>
-        <h3>Portal de Servicio al Ciudadano - PQR</h3>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Colocar PQR</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h2>Bienvenido al Sistema de PQR</h2>
-    <p>El Ejército Nacional pone a disposición esta página para que los ciudadanos puedan realizar sus Peticiones, Quejas y Reclamos de forma rápida y Segura; incluso de forma anónima.
-        Nuestro compromiso es garantizar una excelente atención oportuna y transparente.</p>
-        <div class="galeria">
+    <!--HEADER-->
+    <header class="site-header">
+        <h1>SERVICIO AL CIUDADANO</h1>
+        <h2 class="subtitle">Atención al Ciudadano - Ejército Nacional</h2>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li class="has-submenu">
+                    <a href="#">Servicios</a>
+                    <ul class="submenu">
+                        <li><a href="pqrs.html">PQRS</a></li>
+                        <li><a href="atencion_virtual.html">Atención Virtual</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--BODY-->
+    <main class="content">
+        <section class="card">
+            <h2>Bienvenidos</h2>
+            <p>Esta es una página de Atención al Ciudadano del Ejército Nacional (PQRS)</p>
+        </section>
+        <section class="gallery">
             <div class="item">
-                <img src="img/imagen 1.jpg" alt="imagen 1">
-                <a class="btn" href="https://www.ejercito.mil.co"
-                target="_blank">Página Oficial</a>
+                <a href="pagina1.html"><img src="img/imagen 1.jpg" alt="imagen 1"></a>
+                <a href="pagina1.html" class="button">Ir a página 1</a>
             </div>
             <div class="item">
-                <img src="img/imagen 2.jpg" alt="imagen 2">
-                <a class="btn" href="https://form.gle/"
-                target="_blank">Formulario PQR</a>
-        </div>
-    </div>
-</main>
-<footer>
-    <p>Dirección calle 14 N°7-24, Yopal Casanare, Colombia</p>
-    <p>Correo:servicioalciudadano@ejercito.mil.co</p>
-    <p>Teléfono: +57 15386492759</p>
-    <a class="btn" href="https://www.google.com/maps"
-    target="_blank">Ver en Google Maps</a>
-</footer>
+                <a href="pagina2.html"><img src="img/imagen 2.jpg" alt="imagen 2"></a>
+                <a href="pagina2.html" class="button">Ir a página 2</a>
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <p>Dirección calle 14 N°7-24, Yopal Casanare, Colombia</p>
+        <p>Correo:servicioalciudadano@ejercito.mil.co</p>
+        <p>Teléfono: +57 15386492759</p>
+        <a href="https://www.google.com/maps" target="_blank" class="button">Ver en Google Maps</a>
+    </footer>
 </body>
 </html>
